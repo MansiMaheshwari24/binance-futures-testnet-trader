@@ -19,7 +19,7 @@ A CLI-based Python application to place Market and Limit orders on Binance Futur
     python -m venv (venv-foldername)
     venv\Scripts\activate 
 
-3. Install dependencies
+4. Install dependencies
 
 pip install -r requirements.txt
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
     BINANCE_SECRET_KEY=your_secret_key_here
     BASE_URL=https://testnet.binancefuture.com
     
-5. Add your Binance Futures Testnet API keys
+6. Add your Binance Futures Testnet API keys
 
 
 ## Run Examples

@@ -1,0 +1,5 @@
+2026-02-27 19:00:12 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-02-27 19:00:13 - INFO - Order response: {'orderId': 123456, 'status': 'FILLED'}
+
+2026-02-27 19:05:45 - INFO - Placing order: BTCUSDT SELL LIMIT 0.001 60000
+2026-02-27 19:05:46 - INFO - Order response: {'orderId': 123457, 'status': 'NEW'}

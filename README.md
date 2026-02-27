@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 ### Market Order
 
-python main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
+python main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
 
 ### Limit Order
 
-python main.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
+python main.py --symbol BTCUSDT --side BUY --type LIMIT --quantity 0.002 --price 63000
 
 ## Logs
 

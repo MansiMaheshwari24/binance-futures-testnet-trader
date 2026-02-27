@@ -21,10 +21,16 @@ class BinanceFuturesClient:
         url = f"{self.base_url}{endpoint}"
 
         response = requests.post(url, headers=self.headers, params=params, timeout=10)
-        response.raise_for_status()
+        if response.status_code != 200:
+            try:
+                error_data = response.json()
+                raise Exception(f"Binance Error {error_data}")
+            except Exception:
+                raise Exception(f"HTTP Error {response.status_code}: {response.text}")
 
         return response.json()
 
+        
     def place_order(self, symbol, side, order_type, quantity, price=None):
 
         endpoint = "/fapi/v1/order"

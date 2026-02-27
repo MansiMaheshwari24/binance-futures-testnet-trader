@@ -2,4 +2,21 @@
 2026-02-27 19:00:13 - INFO - Order response: {'orderId': 123456, 'status': 'FILLED'}
 
 2026-02-27 19:05:45 - INFO - Placing order: BTCUSDT SELL LIMIT 0.001 60000
-2026-02-27 19:05:46 - INFO - Order response: {'orderId': 123457, 'status': 'NEW'}
+2026-02-27 19:05:46 - INFO - Order response: {'orderId': 123457, 'status': 'NEW'}2026-02-27 21:51:54,290 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-02-27 21:51:55,607 - ERROR - Order failed: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1772209314291&recvWindow=5000&signature=93895a510ffe64d8c585057e78f206b6b5d23ff6a6ad551c366b55c645053802
+2026-02-27 21:57:21,709 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-02-27 21:57:22,073 - ERROR - Order failed: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1772209641710&recvWindow=5000&signature=05ebb76092cdcb6cbd1a6d995ee3b9ceb53f00a19edab2bee1fd4f3b8b8e94a1
+2026-02-27 21:58:01,102 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-02-27 21:58:01,795 - ERROR - Order failed: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1772209681102&recvWindow=5000&signature=28b20819509798db4e1442bcc1eee4e93c4a335475c42808c7513efed1941b63
+2026-02-27 22:01:31,985 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-02-27 22:01:32,570 - ERROR - Order failed: HTTP Error 400: {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-02-27 22:02:19,620 - INFO - Placing order: BTCUSDT BUY MARKET 0.002 None
+2026-02-27 22:02:21,048 - INFO - Order response: {'orderId': 12555839751, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'rUP0BKBB5AVCzTqOWFUtYz', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772209940828}
+2026-02-27 22:03:33,370 - INFO - Placing order: BTCUSDT BUY MARKET 0.002 None
+2026-02-27 22:03:34,012 - INFO - Order response: {'orderId': 12555849725, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'nOLAkmN3qhKhEGPZHQoQiL', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772210013805}
+2026-02-27 22:04:19,531 - INFO - Placing order: BTCUSDT SELL LIMIT 0.001 60000.0
+2026-02-27 22:04:20,214 - ERROR - Order failed: HTTP Error 400: {"code":-4024,"msg":"Limit price can't be lower than 62703.01."}
+2026-02-27 22:04:38,627 - INFO - Placing order: BTCUSDT SELL LIMIT 0.002 60000.0
+2026-02-27 22:04:39,058 - ERROR - Order failed: HTTP Error 400: {"code":-4024,"msg":"Limit price can't be lower than 62693.75."}
+2026-02-27 22:05:19,731 - INFO - Placing order: BTCUSDT BUY LIMIT 0.002 63000.0
+2026-02-27 22:05:20,514 - INFO - Order response: {'orderId': 12555856674, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'vDUYc22u74jjartGflCmTp', 'price': '63000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772210120306}
